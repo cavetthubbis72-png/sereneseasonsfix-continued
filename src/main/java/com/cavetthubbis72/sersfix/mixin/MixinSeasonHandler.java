@@ -24,8 +24,8 @@ public abstract class MixinSeasonHandler {
     @Unique
     private static final HashMap<Level, Integer> sersfix$tickSinceLastUpdate = new HashMap<>();
 
-    @Inject(method = "onWorldTick", at = @At("HEAD"), remap = false, cancellable = true)
-    public void onWorldTick(TickEvent.Level event, CallbackInfo ci) {
+    @Inject(method = "onLevelTick", at = @At("HEAD"), remap = false, cancellable = true)
+    private static void onLevelTick(TickEvent.Level event, CallbackInfo ci) {
         if (com.cavetthubbis72.sersfix.config.ServerConfig.enable_override.get()) {
             ci.cancel();
 

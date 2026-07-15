@@ -19,7 +19,7 @@ authors = "YourName"
 [[dependencies.sersfix]]
     modId = "sereneseasons"
     mandatory = true
-    versionRange = "[26,)"
+    versionRange = "[10,)"
     ordering = "AFTER"
     side = "BOTH"
 

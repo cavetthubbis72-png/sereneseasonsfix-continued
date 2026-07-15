@@ -23,5 +23,6 @@ repositories {
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
     compileOnly files('libs/serene-seasons.jar')
+    compileOnly files('libs/glitchcore.jar')
     annotationProcessor 'org.spongepowered:mixin:0.8.7:processor'
 }

@@ -1,0 +1,9 @@
+{
+  "commands.sersfix.get_season.not_whitelisted": "Seasons are disabled for this dimension",
+  "commands.sersfix.set_season.not_whitelisted": "Seasons are disabled for this dimension",
+  "commands.sersfix.time.sync_season.not_whitelisted": "Seasons are disabled for this dimension",
+  "commands.sersfix.time.sync_season.success": "Synced season time with world time",
+  "commands.sersfix.time.set_season.not_whitelisted": "Seasons are disabled for this dimension",
+  "commands.sersfix.time.set_season.success": "Set the season time to %s",
+  "commands.sersfix.time.info": "Season time is: %s\nWorld time is: %s\nDelta is: %s\nDimension whitelisted: %s"
+}

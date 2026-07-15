@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.cavetthubbis72.sersfix.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "MixinCommandGetSeason",
+        "MixinCommandSetSeason",
+        "MixinSeasonHandler"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
